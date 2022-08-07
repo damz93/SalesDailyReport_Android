@@ -1,0 +1,21 @@
+Monitoring Outlet Konsinyasi -> Muncul Outlet di Cluster berdasarkan SCC -> Pilih Outlet -> Scan QRCode 
+
+
+
+
+Tabel Outlet
+- ID
+- Nama Outlet
+- Regional
+- Branch
+- Cluster
+
+
+Tabel T_outlet
+- ID
+- ID_out
+- Nama_out
+- Id_SCC
+- TGL
+- Data MSDN
+- Jumlahnya

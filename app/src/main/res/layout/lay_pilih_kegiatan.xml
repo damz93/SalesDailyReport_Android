@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:background="@drawable/warna_lay"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="0sp"
+    android:layout_weight="5"
+    android:scrollbars="vertical" >
+            	
+	<LinearLayout 	    			
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:background="@drawable/btn_merah"
+    	android:orientation="vertical" >
+		<TextView 
+	    	android:id="@+id/dt_tgl_kegiatan"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="end"
+	    	android:text="Tanggalnya"
+	    	android:textColor="#FFFFFF"
+	    	android:textStyle="italic"
+	    	android:textSize="12dp" />
+    	<TextView
+        	android:id="@+id/tx_jenis_kegiatan"
+        	android:layout_width="wrap_content"        
+        	android:layout_height="wrap_content"
+        	android:textSize="6pt"
+        	android:textColor="#FFFFFF"
+        	android:text="Jenis Lokasi" />
+    	<requestFocus
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" />
+		<TextView
+			android:id="@+id/tx_ktg_kegiatan"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="8pt"
+        	android:textColor="#FFFFFF"
+        	android:layout_marginLeft="25dp"
+        	android:textStyle="bold"
+        	android:text="Kategori Kegiatan" />
+   		<Spinner
+        	android:id="@+id/sp_jenis_kegiatan"
+        	android:layout_width="fill_parent"
+        	android:layout_height="1dp"
+        	android:visibility="invisible"
+        	android:background="#FFFFFF"/>
+   		<TextView
+	    	android:id="@+id/txxxx_lokasi_kegiatan"
+		    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="6pt"
+        	android:textColor="#FFFFFF"
+        	android:layout_marginTop="15dp"
+        	android:text="Lokasi" />
+
+		<LinearLayout
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:orientation="vertical">
+			<TextView
+				android:id="@+id/tx_lks_kegiatan"
+        		android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+        		android:textColor="#FFFFFF"
+	        	android:layout_marginLeft="25dp"
+        		android:textSize="8pt"
+        		android:textStyle="bold"
+        		android:text="Lokasi Kegiatan" />
+			<ImageView
+				android:background="@drawable/pin"
+				android:id="@+id/im_lokasi"
+				android:layout_marginStart="5dp"
+				android:layout_marginLeft="25dp"
+				android:layout_width="30dp"
+				android:layout_height="30dp"/>
+
+		</LinearLayout>
+			<TextView
+    			android:id="@+id/txxx_nama_cluster"
+       			android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:textSize="6pt"
+       			android:textColor="#FFFFFF"
+       			android:layout_marginTop="15dp"
+       			android:text="Cluster" />
+			<TextView
+    			android:id="@+id/tx_nama_cluster"
+       			android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:textSize="8pt"
+       			android:textColor="#FFFFFF"
+       			android:layout_marginLeft="25dp"
+       			android:textStyle="bold"
+       			android:text="Nama Cluster" />
+			<TextView
+	    		android:id="@+id/tx_tap_gambar"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="6pt"
+        		android:textColor="#FFFFFF"
+        		android:layout_marginTop="15dp"
+        		android:text="Tap gambar di bawah, untuk membuka kamera" />
+			<ImageView
+			    android:background="@drawable/kamera"
+			    android:id="@+id/im_kamera"
+			    android:layout_gravity="center"
+			    android:layout_width="80dp"
+			    android:layout_height="65dp"/>
+
+			<ImageView
+			    android:id="@+id/im_kameraS"
+			    android:layout_gravity="center"
+			    android:layout_width="130dp"
+			    android:layout_height="130dp"/>
+
+		</LinearLayout>
+    </ScrollView>
+
+	<Button
+        android:id="@+id/bt_next"
+        android:background="@drawable/btn_hijau"
+        android:textColor="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="bottom"
+        android:text="@string/next"/>
+</LinearLayout>

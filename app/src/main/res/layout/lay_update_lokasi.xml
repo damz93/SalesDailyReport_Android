@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d94e4e"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#222225"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="14pt"
+            android:text=" Update Lokasi"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="5"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:columnCount="1" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_merah"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Informasi Lokasi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Lokasi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8pt"
+                    android:textColor="#FFFFFF"
+                    android:text="Nama Lokasi"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/tx_lokasiu"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="fill_parent"
+                android:id="@+id/bt_mulai_edit"
+                android:background="#dc666b"
+                android:text="Mulai Edit"
+                android:textSize="8pt"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_merah"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Profil Sekolah/Kampus"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="NPSN"/>
+                <EditText
+                    android:id="@+id/ed_npsnu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:inputType="number"
+                    android:hint="NPSN" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Sekolah/Kampus(Format:SMA NEGERI 3 TAKALAR)"/>
+                <EditText
+                    android:id="@+id/ed_nmlksu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Nama Sekolah/Kampus" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Alamat"/>
+                <EditText
+                    android:id="@+id/ed_alamu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Alamat" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Kecamatan"/>
+                <EditText
+                    android:id="@+id/ed_kecamu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Kecamatan" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Lokasi"/>
+                <Spinner
+                    android:id="@+id/spn_loksu"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Jenjang"/>
+                <Spinner
+                    android:id="@+id/spn_jenju"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Level"/>
+                <Spinner
+                    android:id="@+id/spn_levelu"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Kategori"/>
+                <Spinner
+                    android:id="@+id/spn_kategoru"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="No Telp"/>
+                <EditText
+                    android:id="@+id/ed_notelu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:hint="041123456" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Alamat Website"/>
+                <EditText
+                    android:id="@+id/ed_alwebu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="http://loop.co.id/" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Foto Sekolah"/>
+                <ImageView
+                    android:background="@drawable/kamera"
+                    android:id="@+id/im_camup"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"/>
+                <ImageView
+                    android:id="@+id/im_camup2"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Kategori POI"/>
+                <Spinner
+                    android:id="@+id/spn_poi"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Value"/>
+                <Spinner
+                    android:id="@+id/spn_value"
+                    android:layout_width="fill_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:background="#FFFFFF"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_merah"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Jumlah Siswa, Karyawan, dan Duta"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Jumlah Guru/Dosen"/>
+                <EditText
+                    android:id="@+id/ed_jumgukayu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Guru/Dosen" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Jumlah Siswa/Mahasiswa"/>
+                <EditText
+                    android:id="@+id/ed_jumsiswu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Siswa/Mahasiswa" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Jumlah Duta/Ambasador"/>
+                <EditText
+                    android:id="@+id/ed_dutambu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Duta/Ambasador" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Duta/Ambasador 1"/>
+                <EditText
+                    android:id="@+id/ed_nmdutambu1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Nama Duta/Ambasador 1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Duta/Ambasador 2"/>
+                <EditText
+                    android:id="@+id/ed_nmdutambu2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Nama Duta/Ambasador 2" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_merah"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Program Back Checking POI"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:text="1.Product"/>
+                <EditText
+                    android:id="@+id/ed_produk_telk"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Produk Telkomsel" />
+                <EditText
+                    android:id="@+id/ed_produk_indosat"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Produk Indosat" />
+                <EditText
+                    android:id="@+id/ed_produk_xl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Produk XL" />
+                <EditText
+                    android:id="@+id/ed_produk_three"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Produk Three" />
+                <EditText
+                    android:id="@+id/ed_produk_other"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="number"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Produk Other" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Foto Produk"/>
+                <ImageView
+                    android:background="@drawable/kamera"
+                    android:id="@+id/im_produk1"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"/>
+                <ImageView
+                    android:id="@+id/im_produk2"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:text="2.Price"/>
+                <EditText
+                    android:id="@+id/ed_price_eup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="textMultiLine"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Isi dengan harga paket yang dikonsinyasi atau dibeli -> EUP (End User Price)" />
+                <EditText
+                    android:id="@+id/ed_price_tp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="textMultiLine"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Isi dengan harga paket yang dikonsinyasi atau dibeli TP (Transfer Price)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Foto Price"/>
+                <ImageView
+                    android:background="@drawable/kamera"
+                    android:id="@+id/im_price1"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"/>
+                <ImageView
+                    android:id="@+id/im_price2"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:text="3.Promotion"/>
+                <EditText
+                    android:id="@+id/ed_promo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="textMultiLine"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Isi dengan Jenis Promosi yang ada di lokasi tersebut(Open TO, Flyer, Spanduk dll)" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Foto Promotion"/>
+                <ImageView
+                    android:background="@drawable/kamera"
+                    android:id="@+id/im_promo1"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"/>
+                <ImageView
+                    android:id="@+id/im_promo2"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="4.Placement"/>
+                <EditText
+                    android:id="@+id/ed_place"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="textMultiLine"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah kantin yang sudah diakuisisi" />
+
+
+                <EditText
+                    android:id="@+id/ed_jtr_mkios"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="textMultiLine"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Transaksi MKios" />
+                <EditText
+                    android:id="@+id/ed_jtr_all"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="textMultiLine"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Jumlah Transaksi ALL" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Foto Placement"/>
+                <ImageView
+                    android:background="@drawable/kamera"
+                    android:id="@+id/im_place1"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"/>
+                <ImageView
+                    android:id="@+id/im_place2"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:text="5.People"/>
+                <EditText
+                    android:id="@+id/ed_people"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="textMultiLine"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Isi dengan jumlah orang yang stand by di lokasi tersebut" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Foto People"/>
+                <ImageView
+                    android:background="@drawable/kamera"
+                    android:id="@+id/im_people1"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"/>
+                <ImageView
+                    android:id="@+id/im_people2"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:text="6.Program"/>
+                <EditText
+                    android:id="@+id/ed_program"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:inputType="textMultiLine"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Isi dengan jumlah orang yang stand by di lokasi tersebut" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Foto Program"/>
+                <ImageView
+                    android:background="@drawable/kamera"
+                    android:id="@+id/im_program1"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"/>
+                <ImageView
+                    android:id="@+id/im_program2"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+
+
+             </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_merah"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Info PIC Sekolah/Kampus"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Kepala Sekolah"/>
+                <EditText
+                    android:id="@+id/ed_nmkepseku"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Nama Kepala Sekolah" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nomor Kepala Sekolah"/>
+                <EditText
+                    android:id="@+id/ed_nokepseku"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:inputType="number"
+                    android:hint="Nomor Kepala Sekolah" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Wakil Kepala Sekolah"/>
+                <EditText
+                    android:id="@+id/ed_nmwakaseku"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Nama Wakil Kepala Sekolah" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nomor Wakil Kepala Sekolah"/>
+                <EditText
+                    android:id="@+id/ed_nowakepseku"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:inputType="number"
+                    android:hint="Nomor Wakil Kepala Sekolah" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_merah"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Data PIC Sekolah/Kampus"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama PIC Telkomsel"/>
+                <EditText
+                    android:id="@+id/ed_nmpicu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Nama PIC Telkomsel" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nomor Telp PIC Telkomsel"/>
+                <EditText
+                    android:id="@+id/ed_notepicu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:inputType="number"
+                    android:hint="Nomor Telp PIC Telkomsel" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama PIC AD"/>
+                <EditText
+                    android:id="@+id/ed_nmpiadu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Nama PIC AD" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Nomor Telp PIC AD"/>
+                <EditText
+                    android:id="@+id/ed_notepicdu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:inputType="number"
+                    android:hint="Nomor Telp PIC AD" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_merah"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Jumlah BTS yang tersedia"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Inner 2G"/>
+                <EditText
+                    android:id="@+id/ed_jumin2gu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:inputType="number"
+                    android:hint="Jumlah Inner 2G" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Sorrounding 2G"/>
+                <EditText
+                    android:id="@+id/ed_jumsr2gu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:inputType="number"
+                    android:hint="Jumlah Sorrounding 2G" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Inner 3G"/>
+                <EditText
+                    android:id="@+id/ed_jumin3gu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:inputType="number"
+                    android:hint="Jumlah Inner 3G" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="6pt"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="15dp"
+                    android:text="Sorrounding 3G"/>
+                <EditText
+                    android:id="@+id/ed_jumsr3gu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="25dp"
+                    android:inputType="number"
+                    android:hint="Jumlah Sorrounding 3G" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_simp_updz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_clear"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn_hijau"
+        android:text="Simpan"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</LinearLayout>

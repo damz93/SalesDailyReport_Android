@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/warna_lay">
+
+ 	<ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/warna_lay"
+        android:layout_weight="6" />
+ 			 
+ 	<LinearLayout     
+    	android:background="#e76363"
+    	android:layout_width="fill_parent"
+	 	android:gravity="bottom"
+        android:orientation="vertical"
+     	android:layout_height="wrap_content" >
+
+     	<TextView
+        	android:textColor="#FFFFFF"
+        	android:layout_marginRight="15dp"
+        	android:id="@+id/txt_jumlah"
+        	android:gravity="right|center_vertical"
+        	android:textStyle="bold"
+        	android:layout_width="fill_parent"
+        	android:layout_height="match_parent" 
+        	android:text="Loading. . .">
+     		</TextView>
+        <Button
+            android:layout_width="fill_parent"
+            android:id="@+id/bt_ref"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_hijau"
+            android:text="Refresh"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content" />
+ 		</LinearLayout>
+</LinearLayout>

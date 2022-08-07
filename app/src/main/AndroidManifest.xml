@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.dypta_2"
+    android:version-code="2"
+    android:versionName="1.8">
+
+    <uses-sdk
+        android:targetSdkVersion="31"
+        tools:ignore="GradleOverrides" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:ignore="ExtraText">
+        <activity
+            android:name="dypta_2.Act_utama"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="dypta_2.Act_utama2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dypta_2.Act_login"
+            android:label="Login SCC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dypta_2.Act_pilih_kegiatan"
+            android:label="Detail Kegiatan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dypta_2.Act_penjualan_kartu"
+            android:label="Penjualan Kartu Perdana/Aktivasi Fitur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dypta_2.Act_penjualan_mkios"
+            android:label="Penjualan MKios Reguler"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dypta_2.Act_penjualan_voucher"
+            android:label="Penjualan Voucher Fisik"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dypta_2.Act_penjualan_paket"
+            android:label="Penjualan Paket Data Mkios"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dypta_2.Act_tugas"
+            android:label="Daftar Lokasi(Sekolah/Kampus)"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dypta_2.Act_pengaturan"
+            android:label="Pengaturan Profil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="dypta_2.Act_lihat_lokasi"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="dypta_2.Act_lihat_lokasii"
+            android:screenOrientation="portrait"/>
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="dypta_2.Act_survey1"
+            android:screenOrientation="portrait"/>
+            android:label="Form Survey" />
+        <activity
+            android:name="dypta_2.Act_pilih_tugas"
+            android:screenOrientation="portrait"/>
+            android:label="Jenis Tugas" />
+        <activity
+            android:name="dypta_2.Act_update_lokasi"
+            android:screenOrientation="portrait"/>
+            android:label="Form Update Lokasi Sekolah/Kampus" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="dypta_2.Act_trade_in"
+            android:label="Trade In"
+            android:screenOrientation="portrait"/>/>
+        <activity
+            android:name="dypta_2.Act_outlet"
+            android:label="Mon. Outlet Konsinyasi"
+            android:screenOrientation="portrait"/>/>
+        <activity
+            android:name="dypta_2.Act_requestmember"
+            android:screenOrientation="portrait"/>
+            android:label="Request Member Community" />
+        <activity
+            android:name="dypta_2.Act_sales_activity"
+            android:screenOrientation="portrait"/>
+            android:label="Sales Activity" />
+        <activity android:name="dypta_2.Act_kantin"
+            android:label="Kantin"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="dypta_2.Act_aktivitas_sales"
+            android:label="Aktivitas Sales"
+            android:screenOrientation="portrait"/>/>
+        <activity
+            android:name="dypta_2.Act_jam_mulai"
+            android:screenOrientation="portrait" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>/>
+    </application>
+
+</manifest>

@@ -1,0 +1,561 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.dypta_2"
+4    android:version-code="2"
+5    android:versionName="1.8" >
+6
+7    <uses-sdk
+7-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:8:5-10:42
+8        android:minSdkVersion="14"
+8-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:8:5-10:42
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:12:5-79
+11-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:12:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:13:5-67
+12-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:13:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:14:5-79
+13-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:14:22-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:16:5-80
+14-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:16:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:17:5-80
+15-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:17:22-77
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:18:5-65
+16-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:18:22-62
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:19:5-75
+17-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:19:22-72
+18
+19    <uses-feature
+19-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:21:5-23:35
+20        android:name="android.hardware.camera"
+20-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:22:9-47
+21        android:required="true" />
+21-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:23:9-32
+22
+23    <!-- Optional permission for Analytics to run. -->
+24    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+24-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:27:5-68
+24-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:27:22-65
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\8f624136ddfafd617f5b33fd2509e6ba\play-services-gcm-12.0.1\AndroidManifest.xml:23:5-82
+25-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\8f624136ddfafd617f5b33fd2509e6ba\play-services-gcm-12.0.1\AndroidManifest.xml:23:22-79
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\363151a0525d1d2d850f455fba090b24\play-services-maps-12.0.1\AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\363151a0525d1d2d850f455fba090b24\play-services-maps-12.0.1\AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\363151a0525d1d2d850f455fba090b24\play-services-maps-12.0.1\AndroidManifest.xml:28:9-32
+30
+31    <permission
+31-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
+32        android:name="app.dypta_2.permission.C2D_MESSAGE"
+32-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
+33        android:protectionLevel="signature" />
+33-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
+34
+35    <uses-permission android:name="app.dypta_2.permission.C2D_MESSAGE" />
+35-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
+35-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
+36
+37    <application
+37-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:25:5-135:19
+38        android:allowBackup="true"
+38-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:26:9-35
+39        android:debuggable="true"
+40        android:icon="@drawable/ic_launcher"
+40-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:27:9-45
+41        android:label="@string/app_name"
+41-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:28:9-41
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme" >
+43-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:29:9-40
+44        <activity
+44-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:31:9-34:20
+45            android:name="dypta_2.Act_utama"
+45-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:32:13-45
+46            android:screenOrientation="portrait" >
+46-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:33:13-49
+47        </activity>
+48        <activity
+48-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:35:9-38:52
+49            android:name="dypta_2.Act_utama2"
+49-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:36:13-46
+50            android:label="@string/app_name"
+50-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:37:13-45
+51            android:screenOrientation="portrait" />
+51-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:38:13-49
+52        <activity
+52-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:39:9-42:52
+53            android:name="dypta_2.Act_login"
+53-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:40:13-45
+54            android:label="Login SCC"
+54-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:41:13-38
+55            android:screenOrientation="portrait" />
+55-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:42:13-49
+56        <activity
+56-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:43:9-46:52
+57            android:name="dypta_2.Act_pilih_kegiatan"
+57-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:44:13-54
+58            android:label="Detail Kegiatan"
+58-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:45:13-44
+59            android:screenOrientation="portrait" />
+59-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:46:13-49
+60        <activity
+60-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:47:9-50:52
+61            android:name="dypta_2.Act_penjualan_kartu"
+61-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:48:13-55
+62            android:label="Penjualan Kartu Perdana/Aktivasi Fitur"
+62-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:49:13-67
+63            android:screenOrientation="portrait" />
+63-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:50:13-49
+64        <activity
+64-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:51:9-54:52
+65            android:name="dypta_2.Act_penjualan_mkios"
+65-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:52:13-55
+66            android:label="Penjualan MKios Reguler"
+66-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:53:13-52
+67            android:screenOrientation="portrait" />
+67-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:54:13-49
+68        <activity
+68-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:55:9-58:52
+69            android:name="dypta_2.Act_penjualan_voucher"
+69-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:56:13-57
+70            android:label="Penjualan Voucher Fisik"
+70-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:57:13-52
+71            android:screenOrientation="portrait" />
+71-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:58:13-49
+72        <activity
+72-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:59:9-62:52
+73            android:name="dypta_2.Act_penjualan_paket"
+73-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:60:13-55
+74            android:label="Penjualan Paket Data Mkios"
+74-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:61:13-55
+75            android:screenOrientation="portrait" />
+75-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:62:13-49
+76        <activity
+76-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:63:9-66:52
+77            android:name="dypta_2.Act_tugas"
+77-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:64:13-45
+78            android:label="Daftar Lokasi(Sekolah/Kampus)"
+78-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:65:13-58
+79            android:screenOrientation="portrait" />
+79-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:66:13-49
+80        <activity
+80-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:67:9-70:52
+81            android:name="dypta_2.Act_pengaturan"
+81-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:68:13-50
+82            android:label="Pengaturan Profil"
+82-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:69:13-46
+83            android:screenOrientation="portrait" />
+83-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:70:13-49
+84        <activity
+84-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:71:9-74:74
+85            android:name="dypta_2.Act_lihat_lokasi"
+85-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:72:13-52
+86            android:screenOrientation="portrait"
+86-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:73:13-49
+87            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+87-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:74:13-71
+88
+89        <meta-data
+89-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:76:9-78:55
+90            android:name="com.google.android.geo.API_KEY"
+90-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:77:13-58
+91            android:value="@string/google_maps_key" />
+91-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:78:13-52
+92
+93        <activity
+93-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:80:9-82:51
+94            android:name="dypta_2.Act_lihat_lokasii"
+94-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:81:13-53
+95            android:screenOrientation="portrait" />
+95-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:82:13-49
+96            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+97        <activity
+97-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:84:9-86:51
+98            android:name="dypta_2.Act_survey1"
+98-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:85:13-47
+99            android:screenOrientation="portrait" />
+99-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:86:13-49
+100            android:label="Form Survey" />
+101        <activity
+101-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:88:9-90:51
+102            android:name="dypta_2.Act_pilih_tugas"
+102-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:89:13-51
+103            android:screenOrientation="portrait" />
+103-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:90:13-49
+104            android:label="Jenis Tugas" />
+105        <activity
+105-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:92:9-94:51
+106            android:name="dypta_2.Act_update_lokasi"
+106-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:93:13-53
+107            android:screenOrientation="portrait" />
+107-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:94:13-49
+108            android:label="Form Update Lokasi Sekolah/Kampus" />
+109        <!--
+110             ATTENTION: This was auto-generated to add Google Play services to your project for
+111             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+112        -->
+113        <meta-data
+113-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:100:9-102:69
+114            android:name="com.google.android.gms.version"
+114-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:101:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:102:13-66
+116
+117        <activity
+117-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:104:9-107:51
+118            android:name="dypta_2.Act_trade_in"
+118-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:105:13-48
+119            android:label="Trade In"
+119-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:106:13-37
+120            android:screenOrientation="portrait" />
+120-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:107:13-49
+121/>
+122        <activity
+122-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:108:9-111:51
+123            android:name="dypta_2.Act_outlet"
+123-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:109:13-46
+124            android:label="Mon. Outlet Konsinyasi"
+124-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:110:13-51
+125            android:screenOrientation="portrait" />
+125-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:111:13-49
+126/>
+127        <activity
+127-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:112:9-114:51
+128            android:name="dypta_2.Act_requestmember"
+128-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:113:13-53
+129            android:screenOrientation="portrait" />
+129-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:114:13-49
+130            android:label="Request Member Community" />
+131        <activity
+131-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:116:9-118:51
+132            android:name="dypta_2.Act_sales_activity"
+132-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:117:13-54
+133            android:screenOrientation="portrait" />
+133-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:118:13-49
+134            android:label="Sales Activity" />
+135        <activity
+135-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:120:9-122:51
+136            android:name="dypta_2.Act_kantin"
+136-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:120:19-52
+137            android:label="Kantin"
+137-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:121:13-35
+138            android:screenOrientation="portrait" />
+138-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:122:13-49
+139        <activity
+139-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:123:9-126:51
+140            android:name="dypta_2.Act_aktivitas_sales"
+140-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:124:13-55
+141            android:label="Aktivitas Sales"
+141-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:125:13-44
+142            android:screenOrientation="portrait" />
+142-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:126:13-49
+143/>
+144        <activity
+144-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:127:9-129:52
+145            android:name="dypta_2.Act_jam_mulai"
+145-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:128:13-49
+146            android:screenOrientation="portrait" />
+146-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:129:13-49
+147
+148        <intent-filter>
+148-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:130:9-134:25
+149            <action android:name="android.intent.action.MAIN" />
+149-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:131:13-65
+149-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:131:21-62
+150
+151            <category android:name="android.intent.category.LAUNCHER" />
+151-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:133:13-73
+151-->C:\Users\Alihdaya\Documents\dedy AM\App-Android\SalesDiaryReport\app\src\main\AndroidManifest.xml:133:23-70
+152        </intent-filter>
+153/>
+154        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+155        <activity
+155-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f5e0dd7d4db0cfe646e2b907b3bdb50a\play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
+156            android:name="com.google.android.gms.ads.AdActivity"
+156-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f5e0dd7d4db0cfe646e2b907b3bdb50a\play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65
+157            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+157-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f5e0dd7d4db0cfe646e2b907b3bdb50a\play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f5e0dd7d4db0cfe646e2b907b3bdb50a\play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+159            android:theme="@android:style/Theme.Translucent" />
+159-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f5e0dd7d4db0cfe646e2b907b3bdb50a\play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+160
+161        <receiver
+161-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
+162            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+162-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
+163            android:enabled="true"
+163-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
+164            android:exported="false" >
+164-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
+165        </receiver>
+166
+167        <service
+167-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
+168            android:name="com.google.android.gms.analytics.AnalyticsService"
+168-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
+169            android:enabled="true"
+169-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
+170            android:exported="false" />
+170-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
+171        <service
+171-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
+172            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+172-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
+173            android:enabled="true"
+173-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
+174            android:exported="false"
+174-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
+175            android:permission="android.permission.BIND_JOB_SERVICE" />
+175-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7fb3ebe4bc4229dc1afbeec37833a9c8\play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
+176
+177        <activity
+177-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
+178            android:name="com.google.android.gms.appinvite.PreviewActivity"
+178-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
+179            android:exported="true"
+179-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
+180            android:theme="@style/Theme.AppInvite.Preview" >
+180-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
+181            <intent-filter>
+181-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
+182                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+182-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
+182-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
+183
+184                <category android:name="android.intent.category.DEFAULT" />
+184-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+184-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+185            </intent-filter>
+186        </activity>
+187        <activity
+187-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\d791606a69a263738de59d65ea1f0610\play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+188            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+188-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\d791606a69a263738de59d65ea1f0610\play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+189            android:excludeFromRecents="true"
+189-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\d791606a69a263738de59d65ea1f0610\play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+190            android:exported="false"
+190-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\d791606a69a263738de59d65ea1f0610\play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+191            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+191-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\d791606a69a263738de59d65ea1f0610\play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+192        <!--
+193            Service handling Google Sign-In user revocation. For apps that do not integrate with
+194            Google Sign-In, this service will never be started.
+195        -->
+196        <service
+196-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\d791606a69a263738de59d65ea1f0610\play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+197            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+197-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\d791606a69a263738de59d65ea1f0610\play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+198            android:exported="true"
+198-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\d791606a69a263738de59d65ea1f0610\play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+199            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+199-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\d791606a69a263738de59d65ea1f0610\play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+200
+201        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+201-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0b7a391e522d6ad4e211ca562bbef8fd\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
+201-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0b7a391e522d6ad4e211ca562bbef8fd\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
+202
+203        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+203-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0b7a391e522d6ad4e211ca562bbef8fd\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
+203-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0b7a391e522d6ad4e211ca562bbef8fd\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
+204        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+204-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0b7a391e522d6ad4e211ca562bbef8fd\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
+204-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0b7a391e522d6ad4e211ca562bbef8fd\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
+205
+206        <activity
+206-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\086c08a90e8caefcc4068123677a4735\firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
+207            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+207-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\086c08a90e8caefcc4068123677a4735\firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
+208            android:excludeFromRecents="true"
+208-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\086c08a90e8caefcc4068123677a4735\firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
+209            android:exported="true"
+209-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\086c08a90e8caefcc4068123677a4735\firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
+210            android:launchMode="singleInstance"
+210-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\086c08a90e8caefcc4068123677a4735\firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
+211            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+211-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\086c08a90e8caefcc4068123677a4735\firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\086c08a90e8caefcc4068123677a4735\firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
+213        <activity
+213-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7864d97a16b3ec73722b27f6072973a9\play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+214            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+214-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7864d97a16b3ec73722b27f6072973a9\play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+215            android:exported="false"
+215-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7864d97a16b3ec73722b27f6072973a9\play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+216-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\7864d97a16b3ec73722b27f6072973a9\play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+217        <!--
+218             FirebaseMessagingService performs security checks at runtime,
+219             no need for explicit permissions despite exported="true"
+220        -->
+221        <service
+221-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\c264a8f7259b90e7c9e22b68898aa84b\firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
+222            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+222-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\c264a8f7259b90e7c9e22b68898aa84b\firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
+223            android:exported="true" >
+223-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\c264a8f7259b90e7c9e22b68898aa84b\firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
+224            <intent-filter android:priority="-500" >
+224-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\c264a8f7259b90e7c9e22b68898aa84b\firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
+224-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\c264a8f7259b90e7c9e22b68898aa84b\firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
+225                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+225-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\c264a8f7259b90e7c9e22b68898aa84b\firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
+225-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\c264a8f7259b90e7c9e22b68898aa84b\firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
+226            </intent-filter>
+227        </service>
+228        <service
+228-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
+229            android:name="com.google.android.gms.tagmanager.TagManagerService"
+229-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
+230            android:enabled="true"
+230-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
+231            android:exported="false" />
+231-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
+232
+233        <activity
+233-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
+234            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+234-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
+235            android:exported="true"
+235-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
+236            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+236-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
+237            <intent-filter>
+237-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
+238                <data android:scheme="tagmanager.c.app.dypta_2" />
+238-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
+238-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+239
+240                <action android:name="android.intent.action.VIEW" />
+240-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
+240-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
+241
+242                <category android:name="android.intent.category.DEFAULT" />
+242-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+242-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\97bb54d676a16f3f43c4457cda6d332f\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+243                <category android:name="android.intent.category.BROWSABLE" />
+243-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
+243-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\0398d4d2dc1179eccde7278c14b02665\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
+244            </intent-filter>
+245        </activity>
+246
+247        <receiver
+247-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
+248            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+248-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
+249            android:enabled="true"
+249-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
+250            android:exported="false" >
+250-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
+251        </receiver>
+252        <receiver
+252-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
+253            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+253-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
+254            android:enabled="true"
+254-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
+255            android:exported="true"
+255-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
+256            android:permission="android.permission.INSTALL_PACKAGES" >
+256-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
+257            <intent-filter>
+257-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
+258                <action android:name="com.android.vending.INSTALL_REFERRER" />
+258-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
+258-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
+259            </intent-filter>
+260        </receiver>
+261
+262        <service
+262-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
+263            android:name="com.google.android.gms.measurement.AppMeasurementService"
+263-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
+264            android:enabled="true"
+264-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
+265            android:exported="false" />
+265-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
+266        <service
+266-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
+267            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+267-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
+268            android:enabled="true"
+268-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
+269            android:exported="false"
+269-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" />
+270-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\17367c87483c45410208e6969742fc27\firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
+271
+272        <receiver
+272-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
+273            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+273-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
+274            android:exported="true"
+274-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
+275            android:permission="com.google.android.c2dm.permission.SEND" >
+275-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
+276            <intent-filter>
+276-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
+277                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+277-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
+277-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
+278
+279                <category android:name="app.dypta_2" />
+279-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
+279-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
+280            </intent-filter>
+281        </receiver>
+282        <!--
+283             FirebaseInstanceIdService performs security checks at runtime,
+284             no need for explicit permissions despite exported="true"
+285        -->
+286        <service
+286-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
+287            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+287-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
+288            android:exported="true" >
+288-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
+289            <intent-filter android:priority="-500" >
+289-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
+289-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
+290                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+290-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
+290-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f58844c645a84f368754b28cae882d0a\firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
+291            </intent-filter>
+292        </service>
+293
+294        <provider
+294-->[com.google.firebase:firebase-common:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\72a4f530d9ce267258eae0208af4ecc4\firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
+295            android:name="com.google.firebase.provider.FirebaseInitProvider"
+295-->[com.google.firebase:firebase-common:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\72a4f530d9ce267258eae0208af4ecc4\firebase-common-12.0.1\AndroidManifest.xml:9:13-77
+296            android:authorities="app.dypta_2.firebaseinitprovider"
+296-->[com.google.firebase:firebase-common:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\72a4f530d9ce267258eae0208af4ecc4\firebase-common-12.0.1\AndroidManifest.xml:10:13-72
+297            android:exported="false"
+297-->[com.google.firebase:firebase-common:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\72a4f530d9ce267258eae0208af4ecc4\firebase-common-12.0.1\AndroidManifest.xml:11:13-37
+298            android:initOrder="100" />
+298-->[com.google.firebase:firebase-common:12.0.1] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\72a4f530d9ce267258eae0208af4ecc4\firebase-common-12.0.1\AndroidManifest.xml:12:13-36
+299
+300        <meta-data
+300-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f9455d2b350ccf1ba963ff6fffc972ec\mediarouter-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+301            android:name="android.support.VERSION"
+301-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f9455d2b350ccf1ba963ff6fffc972ec\mediarouter-v7-26.1.0\AndroidManifest.xml:24:13-51
+302            android:value="26.1.0" />
+302-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\f9455d2b350ccf1ba963ff6fffc972ec\mediarouter-v7-26.1.0\AndroidManifest.xml:25:13-35
+303        <meta-data
+303-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\e21a9b4f23afcb6240dff94e1f3dc1de\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+304            android:name="android.arch.lifecycle.VERSION"
+304-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\e21a9b4f23afcb6240dff94e1f3dc1de\runtime-1.0.0\AndroidManifest.xml:26:13-58
+305            android:value="27.0.0-SNAPSHOT" />
+305-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alihdaya\.gradle\caches\transforms-2\files-2.1\e21a9b4f23afcb6240dff94e1f3dc1de\runtime-1.0.0\AndroidManifest.xml:27:13-44
+306    </application>
+307
+308</manifest>

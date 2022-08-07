@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:background="@drawable/warna_lay"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="0sp"
+    android:layout_weight="5"
+    android:scrollbars="vertical" >
+            	
+		<LinearLayout
+	    	android:layout_width="fill_parent"
+    	    android:layout_height="match_parent"
+			android:background="@drawable/btn_merah"
+    	    android:orientation="vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="10pt"
+				android:textColor="#FFFFFF"
+				android:textStyle="bold"
+				android:text="Penjualan Mkios"/>
+   			<TextView
+	    		android:id="@+id/tx_5k"
+			    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="6pt"
+        		android:textColor="#FFFFFF"
+				android:layout_marginTop="10dp"
+        		android:text="MKios 5K" />
+			<EditText
+	    		android:id="@+id/ed_5k"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:inputType="number"
+        		android:textColor="#FFFFFF"
+				android:maxLength="5"
+        		android:textSize="20sp"
+        		android:textStyle="bold"
+        		android:hint="@string/ex" />
+			<TextView
+	    		android:id="@+id/tx_10k"
+			    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="6pt"
+        		android:textColor="#FFFFFF"
+        		android:text="MKios 10K" />
+			<EditText
+				android:id="@+id/ed_10k"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:inputType="number"
+        		android:textColor="#FFFFFF"
+        		android:textSize="20sp"
+				android:maxLength="5"
+        		android:textStyle="bold"
+        		android:hint="@string/ex" />
+			<TextView
+	    		android:id="@+id/tx_20k"
+			    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="6pt"
+        		android:textColor="#FFFFFF"
+        		android:text="MKios 20K" />
+			<EditText
+	    		android:id="@+id/ed_20k"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:inputType="number"
+        		android:textColor="#FFFFFF"
+				android:maxLength="5"
+        		android:textSize="20sp"
+        		android:textStyle="bold"
+        		android:hint="@string/ex" />
+			<TextView
+	    		android:id="@+id/tx_25k"
+			    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="6pt"
+        		android:textColor="#FFFFFF"
+        		android:text="MKios 25K" />
+			<EditText
+	    		android:id="@+id/ed_25k"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:inputType="number"
+				android:maxLength="5"
+        		android:textColor="#FFFFFF"
+        		android:textSize="20sp"
+        		android:textStyle="bold"
+        		android:hint="@string/ex" />
+			<TextView
+	    		android:id="@+id/tx_50k"
+			    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="6pt"
+        		android:textColor="#FFFFFF"
+        		android:text="MKios 50K" />
+			<EditText
+	    		android:id="@+id/ed_50k"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:inputType="number"
+        		android:textColor="#FFFFFF"
+				android:maxLength="5"
+        		android:textSize="20sp"
+        		android:textStyle="bold"
+        		android:hint="@string/ex" />
+			<TextView
+	    		android:id="@+id/tx_100k"
+			    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="6pt"
+        		android:textColor="#FFFFFF"
+        		android:text="MKios 100K" />
+			<EditText
+	    		android:id="@+id/ed_100k"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:inputType="number"
+        		android:textColor="#FFFFFF"
+        		android:textSize="20sp"
+				android:maxLength="5"
+        		android:textStyle="bold"
+        		android:hint="@string/ex" />
+
+		</LinearLayout>
+	</ScrollView>
+	<Button
+		android:id="@+id/bt_next3"
+		android:background="@drawable/btn_hijau"
+		android:textColor="#FFFFFF"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:textSize="20sp"
+		android:text="Next"/>
+ 
+</LinearLayout>

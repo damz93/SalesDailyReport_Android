@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DYPTA - Dyandra PJP Tracking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="kembali">Kembali</string>
+    <string name="perbarui">Perbarui</string>
+    <string name="action_settings">Settings</string>
+    <string name="pbaru">Password Baru</string>
+    <string name="ulangi">Ulangi Password Baru</string>
+    <string name="next">Next</string>
+    <string name="ex">Ex:10</string>
+    <string name="send">Send</string>
+    <string name="_">" "</string>
+    <string name="title_activity_act_lihat_lokasii">Lihat Lokasi</string>
+    <string name="title_activity_act_pilih_tugas">Act_pilih_tugas</string>
+    <string name="title_activity_act_update_lokasi">Act_update_lokasi</string>
+
+</resources>

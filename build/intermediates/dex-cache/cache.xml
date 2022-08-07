@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\0924f5ef53b5bf708d6380ca627278304bad8bd5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_9714aba83f81b87ac22413698c629f1fa0308ddd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_eb147feb526b872ebfd4d52f6ea0765734076a26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6783a1518dcdff16ca5ec503e1e011b095f6a665\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\3510b73fe95c6b859628d103240f98f238a91553\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_b0cc1c01f15b5fef99c662fd5a469bcb28ed3a6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\d8d65183359ab6b6e2be4b7b80b6e79ef1cddcf3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_7fc5c2f0946bdfa9349fa38abb9ab2dcc18a4af7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.1\f5aa318bda4c6c8d688c9d00b90681dcd82ce636\httpcore-4.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\httpcore-4.4.1_e5ba682176f5abf16c067babd8e3e12709286547.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\a924b07e8a7aace91661a9e173e5389703c664db\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1eaf8065398daeaa1ef77f6a3085567814070059\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\5ffffac6fa9e38e6572db2ef2ddfa8ac6e71a518\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_bc02ca4529f60234d36af410d7f87c1f9bce353a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\8def9de408f4ad766cd453cc672de72d5aef452e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_4301883bfb5cb1c45723044a50276b1b65b78c9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\55fe81f0a90451130497be7d7fc440210377c662\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_355cfbeb608ba83b4bed55b3cb3e531f42c6e714.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\9bf42b8cc023849a883e272321499d7c5ae72fa9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61517545f4fd051f290e39df8a85459221a7d2db\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\9dde33fffa9a8020470a2e805ef71d670970b566\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_678ca21aec3d7bcaae2f00e7960bb5ee757162d2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\ca68867ff9493fd6ae8a91a53789cf35cd9f525b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6fd933a5ea333a52df2e68b47d7f4b5efcb66469\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\d7633c443ff7d89fe2ab34cf10e1750602b2e1bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cc02ef06f0e8800206052e8cbcc712172ca84b3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\a65d1efc1a8a4da9ede8ebe768524c94fa1738aa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_78295a4ff055f1d1a18fdcd47a1673c1cfb14d1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Dedy AM\Master Aplikasi\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_3ff1ccf7eb2981edfbfcc54dd01649dd78f4df7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\6facfed96cd9a7fae1845fc22d5ed51f9fa6e088\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_a61413e0948555e2660599ee31c696926c2a9627.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\1864e260fc1cf1430bce314d92ec4bed7a9f8146\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_cbbe38a0cfb4d413e8966f424e5a3a99502780c4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\e5df00c5350e6f21288116c6e28ef2988a8075f2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af85696634ca8e2485be862ab1f3386a7089ce25\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\2ec3c81cffd45ad793b0224653fde8ab1eb5d3e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1135527c0c409f5152f98c723519766f4db7c55d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\284b695e9a116f9b66e1536e71895876a42b26c5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68ef1daf85c69fca8fddf7bbb947fc51cc9f8ca3">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_46504298cfce50129ed0edf2e9ce552aaa794819\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\62c09f623dfb18e8f00115e73f53c12870f2d525\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_f434033df1b1d0ff4f172b45a035152a8ea753ea.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\9630a4f4bcca8e835889b6e20fc22867e3d03ad7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4458dbef08f4c3c6d2e2417518a0ed14d8de7084\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\09b7b679b9be83fb67b0e9d94b46446c6376a8a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_75f02985f4acec9689913380799764a73f036c2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\ca68867ff9493fd6ae8a91a53789cf35cd9f525b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_6fd933a5ea333a52df2e68b47d7f4b5efcb66469.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\55c6d777e94854ab7835bb8e5b11074cb8677160\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c17637554f9c535c61fcd223eb9df7ee2b2aacf8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\baea00485756f052431f1273294ff4841156ffe6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3fc70fa5f1ad94e69cb8b9629e8e4a016f7d257a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\9bf42b8cc023849a883e272321499d7c5ae72fa9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_61517545f4fd051f290e39df8a85459221a7d2db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\ec3f32bad6c1be24843145b48d60730632138354\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af8d42f1f020e936b8cd9f5cb6c75993194895a3">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_8f3cc378445e4b78c515558fd0bfd72906ea2f82.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\25974735672569a5bced4eef04f7d8e47d5444a9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_709e73cb2e87e724e345bbdaa0c7990ac9b8b53c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\d3981d0dfde1375fd82ea18a2a86407e9dded526\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c3784f7d653b8e49c3b28a18cca67c06de92d32d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\bb989eb55f51eb8d1bf71c5d46d06bf6968154cc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2a456bd93c7c2b364e8c21d3c42db8075104f1a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\24618757de7bf9f83dd449b49a98215e2bbbc0f0\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_2401141e5e5355ebd4491b678e781d9966e77bf2\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\6facfed96cd9a7fae1845fc22d5ed51f9fa6e088\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\internal_impl-23.0.0_ef602167ce1771aea37f211ef40784105b6c475a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\24618757de7bf9f83dd449b49a98215e2bbbc0f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5a1d2ace1e4160df6313ba7818b178be05ed3c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\bfc1ef8746f4f10d2ae1dbd063af6f0eb728c90d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79cf5b8f41d3f24cd3ce79a0650888909f29be70\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\core-3.2.1_eb147feb526b872ebfd4d52f6ea0765734076a26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\bfc1ef8746f4f10d2ae1dbd063af6f0eb728c90d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_79cf5b8f41d3f24cd3ce79a0650888909f29be70.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\3510b73fe95c6b859628d103240f98f238a91553\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b0cc1c01f15b5fef99c662fd5a469bcb28ed3a6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\d8d65183359ab6b6e2be4b7b80b6e79ef1cddcf3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7fc5c2f0946bdfa9349fa38abb9ab2dcc18a4af7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\55fe81f0a90451130497be7d7fc440210377c662\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_355cfbeb608ba83b4bed55b3cb3e531f42c6e714\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.1\f5aa318bda4c6c8d688c9d00b90681dcd82ce636\httpcore-4.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpcore-4.4.1_e5ba682176f5abf16c067babd8e3e12709286547\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\5ffffac6fa9e38e6572db2ef2ddfa8ac6e71a518\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bc02ca4529f60234d36af410d7f87c1f9bce353a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\a924b07e8a7aace91661a9e173e5389703c664db\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_1eaf8065398daeaa1ef77f6a3085567814070059.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\8def9de408f4ad766cd453cc672de72d5aef452e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4301883bfb5cb1c45723044a50276b1b65b78c9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f6587292f5ae351a8e47f0837b9623bd7f28d64">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a561a90dcad9494ce8c7eeaaf5f57f3215f10a0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\0924f5ef53b5bf708d6380ca627278304bad8bd5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9714aba83f81b87ac22413698c629f1fa0308ddd\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\d7633c443ff7d89fe2ab34cf10e1750602b2e1bd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_cc02ef06f0e8800206052e8cbcc712172ca84b3f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\9dde33fffa9a8020470a2e805ef71d670970b566\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_678ca21aec3d7bcaae2f00e7960bb5ee757162d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Dedy AM\Master Aplikasi\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\support-annotations-23.1.1_3ff1ccf7eb2981edfbfcc54dd01649dd78f4df7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\a65d1efc1a8a4da9ede8ebe768524c94fa1738aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_78295a4ff055f1d1a18fdcd47a1673c1cfb14d1d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\1864e260fc1cf1430bce314d92ec4bed7a9f8146\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbbe38a0cfb4d413e8966f424e5a3a99502780c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\2ec3c81cffd45ad793b0224653fde8ab1eb5d3e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_1135527c0c409f5152f98c723519766f4db7c55d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\6facfed96cd9a7fae1845fc22d5ed51f9fa6e088\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a61413e0948555e2660599ee31c696926c2a9627\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\e5df00c5350e6f21288116c6e28ef2988a8075f2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_af85696634ca8e2485be862ab1f3386a7089ce25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\284b695e9a116f9b66e1536e71895876a42b26c5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68ef1daf85c69fca8fddf7bbb947fc51cc9f8ca3">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_46504298cfce50129ed0edf2e9ce552aaa794819.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\9630a4f4bcca8e835889b6e20fc22867e3d03ad7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_4458dbef08f4c3c6d2e2417518a0ed14d8de7084.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\09b7b679b9be83fb67b0e9d94b46446c6376a8a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_75f02985f4acec9689913380799764a73f036c2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\55c6d777e94854ab7835bb8e5b11074cb8677160\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_c17637554f9c535c61fcd223eb9df7ee2b2aacf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\baea00485756f052431f1273294ff4841156ffe6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_3fc70fa5f1ad94e69cb8b9629e8e4a016f7d257a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\62c09f623dfb18e8f00115e73f53c12870f2d525\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f434033df1b1d0ff4f172b45a035152a8ea753ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\6facfed96cd9a7fae1845fc22d5ed51f9fa6e088\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_ef602167ce1771aea37f211ef40784105b6c475a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\bb989eb55f51eb8d1bf71c5d46d06bf6968154cc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_2a456bd93c7c2b364e8c21d3c42db8075104f1a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\25974735672569a5bced4eef04f7d8e47d5444a9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_709e73cb2e87e724e345bbdaa0c7990ac9b8b53c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\d3981d0dfde1375fd82ea18a2a86407e9dded526\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_c3784f7d653b8e49c3b28a18cca67c06de92d32d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\24618757de7bf9f83dd449b49a98215e2bbbc0f0\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\internal_impl-23.1.1_2401141e5e5355ebd4491b678e781d9966e77bf2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\KISEL\.android\build-cache\ec3f32bad6c1be24843145b48d60730632138354\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af8d42f1f020e936b8cd9f5cb6c75993194895a3">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f3cc378445e4b78c515558fd0bfd72906ea2f82\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\KISEL\.android\build-cache\24618757de7bf9f83dd449b49a98215e2bbbc0f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\Dedy AM\App-Android\dypta_2\app\build\intermediates\pre-dexed\release\classes_e5a1d2ace1e4160df6313ba7818b178be05ed3c8.jar" />
+    </item>
+
+</items>
